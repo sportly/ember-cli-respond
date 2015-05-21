@@ -6,8 +6,6 @@ Respond.js is a polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and m
 
 More info on respond.js at https://github.com/scottjehl/Respond
 
-Note: this uses the Cloudflare CDN to deliver the respond.min.js asset
-
 ## Installation
 
 ```
