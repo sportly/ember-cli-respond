@@ -1,25 +1,20 @@
-# Ember-cli-respond
+# ember-cli-typekit
 
-This README outlines the details of collaborating on this Ember addon.
+This ember-cli addon injects respond.js into index.html.
+
+Respond.js is a polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more)
+
+More info on respond.js at https://github.com/scottjehl/Respond
+
+Note: this uses the Cloudflare CDN to deliver the respond.min.js asset
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```
+npm install --save-dev ember-cli-respond
+```
 
-## Running
+# Configuration
 
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+No config at the moment.
+```
