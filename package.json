@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-respond",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple addon that injects respond.js into index.html",
   "author": "",
   "repository": "git@github.com:sportly/ember-cli-respond.git",
