@@ -9,7 +9,7 @@ module.exports = {
         if (typeof config.respond !== 'undefined' && config.respond.proxy === true) {
             output += '<link href="' + config.respond.externalUrl + 'ember-cli-respond/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />' +
             '<link href="/ember-cli-respond/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />' +
-            '<script src="' + config.respond.externalUrl + 'ember-cli-respond/respond.proxy.js"></script>';
+            '<script src="/ember-cli-respond/respond.proxy.js"></script>';
         }
         return output;
     }
